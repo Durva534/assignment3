@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ass3 pra9(a)"/>
+        <attribute name="authors" value="StatLab"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-29 01:27:07 PM"/>
+        <attribute name="created" value="U3RhdExhYjtERVNLVE9QLURWRVFERjY7MjAyNi0wNy0yOTswMToyMzo0OCBQTTszMDUy"/>
+        <attribute name="edited" value="U3RhdExhYjtERVNLVE9QLURWRVFERjY7MjAyNi0wNy0yOTswMToyNzowNyBQTTsxOzMxNTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter a number&quot;" newline="True"/>
+            <input variable="number"/>
+            <assign variable="b" expression="number%2"/>
+            <if expression="b&lt;1">
+                <then>
+                    <output expression="&quot;the number is divisible by 2&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;the number is not divisible by 2&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

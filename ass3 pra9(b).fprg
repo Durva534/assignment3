@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ass3 pra(b)"/>
+        <attribute name="authors" value="StatLab"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-29 01:30:23 PM"/>
+        <attribute name="created" value="U3RhdExhYjtERVNLVE9QLURWRVFERjY7MjAyNi0wNy0yOTswMToyNzo0OCBQTTszMDU2"/>
+        <attribute name="edited" value="U3RhdExhYjtERVNLVE9QLURWRVFERjY7MjAyNi0wNy0yOTswMTozMDoyMyBQTTsxOzMxNTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter a number&quot;" newline="True"/>
+            <input variable="number"/>
+            <assign variable="b" expression="number%3"/>
+            <if expression="b&lt;1">
+                <then>
+                    <output expression="&quot;the number is divisible by 3&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;the number is not divisible by 3&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
